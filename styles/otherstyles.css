@@ -1,0 +1,101 @@
+
+/* 
+    Created on : 9 jun 2023, 13:10:34
+    Author     : anahi
+*/
+
+.body{
+    background-color: pink;
+}
+
+.encabezado{
+    font-size: 2em;
+    color:#ff0099 ;
+    border-style: dotted;
+    border-color: #ff0099;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #ff0099, 0 0 5px #ff0099 ;
+}
+
+
+.img2{
+    margin:auto;
+    transition: width 1s, height 1s;
+}
+
+@keyframe animacion {
+    from {
+        transform: scale (.5);
+    }
+    to {
+        transform: scale (1.0);
+    }
+}
+
+.img2:hover {
+    width: 250px;
+    height: 250px;
+    animation: animacion .5s ease-in-out alternate infinite;
+}
+
+.nav-bar{
+    background-color:#ff0099;
+    color: black;
+}
+
+.nav-bar li,.nav-bar li a{
+    display: inline-block;
+    list-style: none;
+    font: bold 14px verdana,sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 10px 50px 10px 15px;
+}
+
+.nav-bar li a:hover{
+    font-size: 16px;
+}
+
+.kawaii-footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+.kawaii-footer img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.bg-k{
+    background-color:#ff0099;
+}
+
+.menu-compra {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+.menu-compra h2 {
+    margin-bottom: 20px;
+}
+.menu-compra .btn {
+    margin-right: 10px;
+}
+
+.text{
+    text-align: center;
+}
+
+.pad{
+     padding: 10px 10px 10px 10px;
+}
+
+.pad1{
+     padding: 40px 10px 10px 10px;
+}
+
+.pad2{
+    text-align: center;
+}
